@@ -115,7 +115,7 @@ export default function ChatPage() {
                 style={{
                   textAlign: "center",
                   padding: "2rem",
-                  maxWidth: "28rem", // same as max-w-md
+                  maxWidth: "28rem",
                 }}
               >
                 <img
@@ -124,7 +124,7 @@ export default function ChatPage() {
                   style={{
                     width: "5rem", // w-20
                     height: "5rem", // h-20
-                    margin: "0 auto 1rem", // mx-auto mb-4
+                    margin: "0 auto 1rem",
                     display: "block",
                   }}
                 />
