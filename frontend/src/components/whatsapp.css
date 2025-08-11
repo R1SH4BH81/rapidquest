@@ -16,7 +16,7 @@
 .chat-body {
   flex: 1;
   overflow-y: auto;
-  background-image: url("/whatsapp-bg.png"); /* use WhatsApp bg */
+  background-image: url("/whatappbg.png"); /* use WhatsApp bg */
   background-repeat: repeat;
   background-size: contain;
   padding: 1rem;

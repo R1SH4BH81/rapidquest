@@ -102,17 +102,49 @@ export default function ChatPage() {
           />
         ) : (
           !isMobile && (
-            <div className="flex items-center justify-center h-full bg-[#F0F2F5]">
-              <div className="text-center p-8 max-w-md">
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                height: "100%",
+                backgroundColor: "#F0F2F5",
+              }}
+            >
+              <div
+                style={{
+                  textAlign: "center",
+                  padding: "2rem",
+                  maxWidth: "28rem", // same as max-w-md
+                }}
+              >
                 <img
                   src="/whatsapp-web-icon.png"
                   alt="WhatsApp Web"
-                  className="w-20 h-20 mx-auto mb-4"
+                  style={{
+                    width: "5rem", // w-20
+                    height: "5rem", // h-20
+                    margin: "0 auto 1rem", // mx-auto mb-4
+                    display: "block",
+                  }}
                 />
-                <h3 className="mt-4 text-3xl font-light text-gray-700">
+                <h3
+                  style={{
+                    marginTop: "1rem",
+                    fontSize: "1.875rem", // text-3xl
+                    fontWeight: "300", // font-light
+                    color: "#374151", // text-gray-700
+                  }}
+                >
                   WhatsApp Web
                 </h3>
-                <p className="mt-2 text-gray-500 text-sm">
+                <p
+                  style={{
+                    marginTop: "0.5rem",
+                    color: "#6B7280", // text-gray-500
+                    fontSize: "0.875rem", // text-sm
+                  }}
+                >
                   Send and receive messages without keeping your phone online.
                   <br />
                   Use WhatsApp on up to 4 linked devices and 1 phone at the same
