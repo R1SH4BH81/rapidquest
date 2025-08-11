@@ -81,13 +81,10 @@ npm run dev
 ```
 
 
-##🌐 Deployment
+## 🌐 Deployment
 Backend deployed on Render
-
 Frontend deployed on Vercel
-
 Database hosted on MongoDB Atlas
-
 Live Demo: https://rapidquest-blue.vercel.app/
 
 
