@@ -65,11 +65,11 @@ root/
 ```
 ## ⚙️ Installation & Running Locally
 ### 1️⃣ Clone the repository
-bash
-Copy
-Edit
+```bash
+
 git clone https://github.com/R1SH4BH81/rapidquest
 cd rapidquest
+```
 ### 2️⃣ Setup Backend
 ```bash
 
