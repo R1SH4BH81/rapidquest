@@ -100,7 +100,7 @@ Frontend deployed on Vercel
 
 Database hosted on MongoDB Atlas
 
-Live Demo: [https://your-live-demo-url.com](https://rapidquest-blue.vercel.app/)
+Live Demo: https://rapidquest-blue.vercel.app/
 
 
 
