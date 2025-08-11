@@ -15,31 +15,19 @@ Send Message Demo – Add new messages to a conversation (stored in DB only)
 
 Real-Time Updates (Optional) – Supports WebSocket for live message display
 
-🛠 Tech Stack
-Backend
+### 🛠 Tech Stack
+#### Backend
 
-Node.js
+Node.js ,Express.js ,MongoDB (Atlas) ,Mongoose ORM
 
-Express.js
+#### Frontend
 
-MongoDB (Atlas)
+React.js (Vite/CRA) ,Axios ,Tailwind CSS / CSS Modules
 
-Mongoose ORM
-
-Frontend
-
-React.js (Vite/CRA)
-
-Axios
-
-Tailwind CSS / CSS Modules
-
-Deployment
+#### Deployment
 
 Backend: Render 
-
 Frontend: Vercel 
-
 Database: MongoDB Atlas
 
 📂 Project Structure
